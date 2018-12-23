@@ -1,31 +1,36 @@
-# ce02 Title Here
+# ce02 Command Line Compilation and Packages
 
-This exercise is designed to...
+This exercise is designed to introduce text editors and compiling java code organized in packages on a Unix system
 
 ## Prerequisite Knowledge
+Emacs/Vi Reference Guide
+Introduction to Java Packages: https://docs.oracle.com/javase/tutorial/java/package/index.html
 
-* TBD
+**Might Need More Resources Here**
 
 ## Questions
 
 In your notes, clearly answer the following questions. These instructions assume that you have setup
 your local machine following the instructions linked to on eLC and the syllabus.
 
-1. 
+1. Launch your terminal emulator and create the following directory hierarchy: 'exercise2/src/cs1302/example'
+   What single command can be used to create this directory structure?
 
-2.
+2. Within the 'example' directory, create a file called 'Hello.java'. Inside of the file, write a basic Hello, world
+   java program using your favorite text editor (emacs or vi).
 
-3.
+3. Within the Hello.java file, write code to place this file in the 'cs1302.example' package.
 
-4.
+4. From the 'exercise2' directory, make a directory called 'bin'. This folder will hold the byte code (.class files) for 
+   our program.
 
-5.
+5. From the 'exercise2' directory, what is a single command to compile the 'Hello.java' file and place the .class file in
+   the 'bin' directory?
+
+6. From the 'exercise2' directory, what is the single command to run the 'Hello' java program?
 
 * **CHECKPOINT**
-
-6. 
-
-7.
+7. From your home directory (not 'exercise2'), what is the single command to run the 'Hello' java program?
 
 8.
 
