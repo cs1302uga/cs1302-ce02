@@ -29,14 +29,16 @@ your local machine following the instructions linked to on eLC and the syllabus.
 
 6. From the 'exercise2' directory, what is the single command to run the 'Hello' java program?
 
-* **CHECKPOINT**
 7. From your home directory (not 'exercise2'), what is the single command to run the 'Hello' java program?
 
-8.
+* **CHECKPOINT**
+8. Create a utility package under the cs1302 package.  In it, create a Methods class that has a method to return the max of two
+   integers.
 
-9.
+9. What is the command to compile the new Methods class?
 
-10.
+10. Now, call the max method from your Hello.java file (in a different package).  How would you call the method without importing
+    the cs1302.utility package?
 
 * **CHECKPOINT**
 
