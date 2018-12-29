@@ -47,7 +47,7 @@ your local machine following the instructions linked to on eLC and the syllabus.
 
 * **CHECKPOINT**
 
-11.
+11. Extend homework 2 to do the same thing using maven in exercise 3?  When you add the utility folder, it just figures everything out.       Good motivator for maven.  This exercise gets tough toward the end.  
 
 12.
 
