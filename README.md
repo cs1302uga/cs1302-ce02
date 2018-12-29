@@ -32,15 +32,18 @@ your local machine following the instructions linked to on eLC and the syllabus.
 7. From your home directory (not 'exercise2'), what is the single command to run the 'Hello' java program?
 
 * **CHECKPOINT**
-8. Create a 'utility' package under the 'cs1302' package at the same level as 'example'.  In 'utility', create a 'Methods.java' file that    contains a single, static method which takes two integers as input and returns the max of the two.
+8. Create a 'utility' package under the 'cs1302' package at the same level as 'example'.  In 'utility', create a 'Methods.java' file that    contains a single, static method which takes two integers as input and returns the max of the two.  What is the exact first line of
+   code in this file? **Hint**: it should be a package specifier.
 
-9. What is the command to compile 'Methods.java' and place the byte code in the 'bin' directory?  Check out the bin directory when you've
+9. What is the command to compile 'Methods.java' and place the byte code in the 'bin' directory?  Look in the bin directory when you've
    compiled both 'Hello.java' and 'Methods.java'.  Notice the directory hierarchy that was automatically created.
 
-10. Now, call the max method from within your 'Hello.java' file (in a different package).  How would you call the method without importing
-    the cs1302.utility package?
-    
-11. Now, add the import statement and remove the fully qualified name from the code.
+10. Now, modify your 'Hello.java' file.  Have it print out the maximum of two values input by the user.  Use the max method from your 'Methods.java' utility. What is the line of code to call this method?  Assume you have no import statements in 'Hello.java'.
+  
+11. What is the line to compile the 'Hello.java' file?  Has compilation changed?
+
+
+12. Now, add the import statement and remove the fully qualified name from the code.
 
 * **CHECKPOINT**
 
