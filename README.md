@@ -16,8 +16,10 @@ your local machine following the instructions linked to on eLC and the syllabus.
 1. Launch your terminal emulator and create the following directory hierarchy: 'exercise2/src/cs1302/example'
    What single command can be used to create this directory structure?
 
-2. Within the 'example' directory, create a file called 'Hello.java'. Inside of the file, write a basic Hello, world
-   java program using your favorite text editor (emacs or vi).
+2. Within the 'example' directory, create a file called 'Hello.java'. Inside of the file, write a basic java program 
+   using your favorite text editor (emacs or vi).  `Hello.java` should read in the user's name (using Scanner) and then output
+   "Hello, <user>" with their name instead of <user>.  Your program should work without any import statements (do not directly input
+   the Scanner class).  How can you use Scanner without importing it?
 
 3. Within the Hello.java file, write code to place this file in the 'cs1302.example' package.
 
