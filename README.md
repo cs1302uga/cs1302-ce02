@@ -3,10 +3,11 @@
 This exercise is designed to introduce text editors and compiling java code organized in packages on a Unix system
 
 ## Prerequisite Knowledge
-Emacs/Vi Reference Guide
-Introduction to Java Packages: https://docs.oracle.com/javase/tutorial/java/package/index.html
+https://www.digitalocean.com/community/tutorials/how-to-use-the-emacs-editor-in-linux
 
-**Might Need More Resources Here**
+Emacs/Vi Reference Guide
+
+CSCI 1302 Package Tutorial
 
 ## Questions
 
