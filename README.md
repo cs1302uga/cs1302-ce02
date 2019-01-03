@@ -50,9 +50,9 @@ your local machine following the instructions linked to on eLC and the syllabus 
 
 * **CHECKPOINT**
 
-11. Add a README file containing the first and last names of all group members
+11. Add a README file in the `exercise2` folder containing the first and last names of all group members
 
-12. Tar and gzip your directory hierarchy containing the README file and submit to cs1302a.
+12. Tar and gzip your directory hierarchy containing the README file and submit to cs1302a. TODO: Add commands for this
 
 13.
 
