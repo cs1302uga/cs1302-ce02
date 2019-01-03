@@ -12,7 +12,7 @@ CSCI 1302 Package Tutorial
 ## Questions
 
 In your notes, clearly answer the following questions. These instructions assume that you have setup
-your local machine following the instructions linked to on eLC and the syllabus.
+your local machine following the instructions linked to on eLC and the syllabus or are logged into the nike server.
 
 1. Launch your terminal emulator and create the following directory hierarchy: 'exercise2/src/cs1302/example'
    What single command can be used to create this directory structure?
@@ -50,9 +50,9 @@ your local machine following the instructions linked to on eLC and the syllabus.
 
 * **CHECKPOINT**
 
-11. Extend homework 2 to do the same thing using maven in exercise 3?  When you add the utility folder, it just figures everything out.       Good motivator for maven.  This exercise gets tough toward the end.  
+11. Add a README file containing the first and last names of all group members
 
-12.
+12. Tar and gzip your directory hierarchy containing the README file and submit to cs1302a.
 
 13.
 
