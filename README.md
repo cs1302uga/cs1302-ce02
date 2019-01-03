@@ -54,24 +54,6 @@ your local machine following the instructions linked to on eLC and the syllabus 
 
 12. Tar and gzip your directory hierarchy containing the README file and submit to cs1302a. TODO: Add commands for this
 
-13.
-
-14.
-
-15.
-
-* **CHECKPOINT**
-
-16.
-
-17.
-
-18.
-
-19.
-
-20.
-
 * **CHECKPOINT**
 
 <hr/>
