@@ -1,6 +1,7 @@
 # ce02 Command Line Compilation and Packages
 
-This exercise is designed to introduce text editors and compiling java code organized in packages on a Unix system
+This exercise is designed to introduce text editors as well as how to compile Java code organized into 
+packages on a Unix system.
 
 ## Prerequisite Knowledge
 
