@@ -37,7 +37,7 @@ logged into the nike server.
 
    Once you are confident that it is working, remove the _compiled_ code.
 
-1. Move the `Hello` class into the `cs1302.example` package. What two things must be done to 
+1. Move the `Hello` class (source code) into the `cs1302.example` package. What two things must be done to 
    accomplish this?
 
 1. For better organization, let's separate the source code from the compiled code. Directly inside 
