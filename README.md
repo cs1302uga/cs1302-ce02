@@ -80,7 +80,7 @@ logged into the nike server.
    members (one full name per line).
 
 1. Change directories to the parent of `exercise2` (e.g., `cd ..` from `exercise2`). We will use the 
-   `tar` command to combine our directory hierarchy into a single file for submission. 
+   `tar` command to combine our directory hierarchy into a single file for backup purposes. 
    To do this, execute the command:
    
    ```
@@ -107,11 +107,19 @@ logged into the nike server.
    various options.
 
 1. List the contents of your directory and make sure you see `exercise2.tar.gz` instead of 
-   `exercise2.tar`. Now, submit this file using the following command:
+   `exercise2.tar`. Now, you have a compressed backup of your directory saved in the `.tar.gz file`.
+   
+1. In this class, you may be asked to submit assignments or exercises from time to time. To do this, 
+   you much change to the parent directory of the directory you want to submit, then use the `submit`
+   command (specific to Nike). To submit your `exercise2` directory, use the following command:
 
    ```
-   $ submit exercise2.tar.gz cs1302a
+   $ submit exercise2 cs1302a
    ```
+
+   Read the output of the `submit` command very carefuly. If there is an error while submitting, then
+   it will displayed in that output. Additionally, if successful, the `submit` command creates a new 
+   regular file in the directory you submitted with a `rec` that serves as a receipt of your submission. 
 
    Note: You must be on Nike to submit.
 
