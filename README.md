@@ -67,7 +67,7 @@ logged into the nike server.
    user. Use the method from your `MyMethods` utility class. What is the line of code to call this 
    method, assuming you have **no import statements** in `Hello.java`?
   
-1. What is the command to compile the `Hello` class from the `exercise2` directory and place the 
+1. **TRICKY** What is the command to compile the `Hello` class from the `exercise2` directory and place the 
    compiled code into `bin`? Note: there is now a dependency in `Hello.java`. It relies on the code
     from `MyMethods`, so the compiler needs to know where to find that class.
 
