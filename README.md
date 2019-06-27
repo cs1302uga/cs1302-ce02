@@ -11,6 +11,10 @@ packages on a Unix system.
 
 * Emacs Reference Card: https://www.gnu.org/software/emacs/refcards/pdf/refcard.pdf
 
+## Course-Specific Learning Outcomes
+
+* **LO1.a:** Navigate and modify files, directories, and permissions in a multi-user Unix-like environment.
+
 ## Questions
 
 In your notes, clearly answer the following questions. These instructions assume that you are 
