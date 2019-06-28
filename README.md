@@ -15,7 +15,9 @@ packages on a Unix system.
 
 * **LO1.a:** Navigate and modify files, directories, and permissions in a multi-user Unix-like environment.
 * **LO1.c:** Create and modify text files and source code using a powerful terminal-based text editor such as Emacs or Vi.
-
+* **LO1.d:** (Partial) Use shell commands to compile new and existing software solutions that are organized into multi-level 
+  packages and have external dependencies.
+  
 ## Questions
 
 In your notes, clearly answer the following questions. These instructions assume that you are 
