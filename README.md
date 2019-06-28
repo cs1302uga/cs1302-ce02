@@ -14,6 +14,7 @@ packages on a Unix system.
 ## Course-Specific Learning Outcomes
 
 * **LO1.a:** Navigate and modify files, directories, and permissions in a multi-user Unix-like environment.
+* **LO1.c:** Create and modify text files and source code using a powerful terminal-based text editor such as Emacs or Vi.
 
 ## Questions
 
