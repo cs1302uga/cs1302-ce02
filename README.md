@@ -5,7 +5,7 @@ packages on a Unix system.
 
 ## Prerequisite Knowledge
 
-* Emacs How-To: https://www.digitalocean.com/community/tutorials/how-to-use-the-emacs-editor-in-linux
+* Emacs Tutorial: https://github.com/cs1302uga/cs1302-tutorials/blob/master/emacs/emacs.md
 
 * CSCI 1302 Package Tutorial: https://github.com/cs1302uga/cs1302-tutorials/blob/master/packages.md
 
@@ -23,7 +23,12 @@ packages on a Unix system.
 In your notes, clearly answer the following questions. These instructions assume that you are 
 logged into the nike server.
 
-1. Launch your terminal emulator and create the subdirectory structure seen below. What single 
+**NOTE:** For each step, please provide in your notes the full command that you typed to make the related 
+action happen along with an explanation of why that command worked. Some commands require multiple options. 
+It is important to not only recall what you typed but also why you typed each of them. If done properly, your 
+class notes will serve as a helpful study guide for the exam.
+
+1. In your home directory on nike create the subdirectory structure seen below. What single 
    command can be used to create all of these directories at once?
 
    ```
@@ -33,29 +38,29 @@ logged into the nike server.
                 |--- example
    ```
 
-1. Navigate to the default package for source code. Within this directory, create a file called 
-   `Hello.java`. Within this file, write a basic Java program to read in the user's name and then 
-   output `Hello, <user>` with their name instead of `<user>`. Your program should work 
-   **without any import statements**.  What is the line of java code to instantiate a `Scanner` 
-   object without importing the class?
+1. Navigate to the `src` directory. In this example, `src` is the default package for source code. 
+   Inside of the `src` directory, create a file called `Hello.java`. Within this file, write a Java 
+   program to read in the user's name and then output `Hello, <user>` with their name instead of 
+   `<user>`. Your program should work **without any import statements**.  What is the line of java 
+   code to instantiate a `Scanner` object without importing the class?
 
-1. Compile and run your code directly from the default package. In which directory is the compiled
-   code at this point?  
+1. Compile and run your code directly from the default package. Don't use the `-d` option for `javac`
+   in this step. In which directory is the compiled code contained?
 
-   Once you are confident that it is working, remove the _compiled_ code.
+   Once you are confident that it is working, remove the _compiled_ (byte) code (not your source code).
 
 1. Move the `Hello` class (source code) into the `cs1302.example` package. What two things must be done to 
    accomplish this?
 
 1. For better organization, let's separate the source code from the compiled code. Directly inside 
    the `exercise2` directory, add a subdirectory called `bin`. This directory will be the default 
-   package for our compiled code. What is the single command to compile `Hello.java` and place the 
-   compiled code into the `bin` directory?
+   package for our compiled code. From within `exercise2`, what is the single command to compile 
+   `Hello.java` and place the compiled code into the `bin` directory?
 
 1. From the `exercise2` directory, what is the single command to run the `Hello` program?
 
 1. From your home directory (not `exercise2`), what is the single command to run the `Hello` 
-   program? The correct answer will be different for each group.
+   program?
 
     **CHECKPOINT**
     
