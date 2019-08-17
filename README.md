@@ -134,7 +134,9 @@ class notes will serve as a helpful study guide for the exam.
 
    Read the output of the `submit` command very carefuly. If there is an error while submitting, then
    it will displayed in that output. Additionally, if successful, the `submit` command creates a new 
-   regular file in the directory you submitted with a `rec` that serves as a receipt of your submission. 
+   receipt file in the directory you submitted. The receipt file begins with `rec` and contains a 
+   detailed list of all files that were successfully submitted. Look through the contents of the `rec`
+   file and always remember to keep that file in case there is an issue with your submission.
 
    Note: You must be on Nike to submit.
 
