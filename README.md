@@ -62,12 +62,12 @@ class notes will serve as a helpful study guide for the exam.
 1. From your home directory (not `exercise2`), what is the single command to run the `Hello` 
    program?
 
-    **CHECKPOINT**
+**CHECKPOINT**
     
-1. Create a `cs1302.utility` package directory. Add a class called `MyMethods` to this package. 
-   Add a single, static method to to this class which takes two `int` variables as parameters and 
-   returns the maximum of the two as an `int`. What is the exact first line of code in 
-   `MyMethods.java`?
+1. Navigate to the `exercise2` folder and add a `cs1302.utility` package directory to your heirarchy. 
+   Add a class called `MyMethods` to this package. Add a single, static method to to this class which 
+   takes two `int` variables as parameters and returns the maximum of the two as an `int`. What is the 
+   exact first line of code in `MyMethods.java`?
 
 1. Assuming your present working directory is still `exercise2`, what is the command to compile 
    `MyMethods.java` and place the byte code in the `bin` directory? 
@@ -81,12 +81,15 @@ class notes will serve as a helpful study guide for the exam.
   
 1. **TRICKY** What is the command to compile the `Hello` class from the `exercise2` directory and place the 
    compiled code into `bin`? Note: there is now a dependency in `Hello.java`. It relies on the code
-    from `MyMethods`, so the compiler needs to know where to find that class.
+   from `MyMethods`, so the compiler needs to know where to find that class. 
+   Hint: [Setting the Class Path](https://github.com/cs1302uga/cs1302-tutorials/blob/master/packages.md#setting-the-class-path)
 
 1. Now, add the import statement for `MyMethods` in `Hello.java` and replace applicable fully 
-   qualified names with simple names. Rerun your code to make sure it is working.
+   qualified names with simple names. Rerun your code to make sure it is working. From the `exercise2` 
+   directory, what is the single command to run the `Hello` program?
+   
 
-    **CHECKPOINT**
+**CHECKPOINT**
 
 1. Add a `README.txt` file in the `exercise2` folder containing the first and last names of all group 
    members (one full name per line).
@@ -135,7 +138,7 @@ class notes will serve as a helpful study guide for the exam.
 
    Note: You must be on Nike to submit.
 
-   **CHECKPOINT**
+**CHECKPOINT**
 
 <hr/>
 
