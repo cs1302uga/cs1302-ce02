@@ -43,21 +43,22 @@ class notes will serve as a helpful study guide for the exam.
 1. Navigate to the `src` directory. In this example, `src` is the default package for source code. 
    Inside of the `src` directory, create a file called `Hello.java`. Within this file, write a Java 
    program to read in the user's name and then output `Hello, <user>` with their name instead of 
-   `<user>`. Your program should work **without any import statements**.  What is the line of java 
-   code to instantiate a `Scanner` object without importing the class?
+   `<user>`. Your program should work **without any import statements**.  Write the full line of java 
+   code to instantiate a `Scanner` object without importing the class in your notes.
 
 1. Compile and run your code directly from the default package. Don't use the `-d` option for `javac`
    in this step. In which directory is the compiled code contained?
 
    Once you are confident that it is working, remove the _compiled_ (byte) code (not your source code).
 
-1. Move the `Hello` class (source code) into the `cs1302.example` package. What two things must be done to 
+1. Move the `Hello.java` file (source code) into the `cs1302.example` package. What two things must be done to 
    accomplish this?
 
 1. For better organization, let's separate the source code from the compiled code. Directly inside 
    the `exercise2` directory, add a subdirectory called `bin`. This directory will be the default 
    package for our compiled code. From within `exercise2`, what is the single command to compile 
-   `Hello.java` and place the compiled code into the `bin` directory?
+   `Hello.java` and place the compiled code into the `bin` directory? Remember to use tab completion
+   when typing in Unix to avoid mistakes and save you time!
 
 1. From the `exercise2` directory, what is the single command to run the `Hello` program?
 
