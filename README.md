@@ -7,11 +7,11 @@ packages on a Unix system.
 
 ## Prerequisite Knowledge
 
-* Emacs Tutorial: https://github.com/cs1302uga/cs1302-tutorials/blob/master/emacs/emacs.md
+* [Emacs Tutorial](https://github.com/cs1302uga/cs1302-tutorials/blob/master/emacs/emacs.md)
 
-* CSCI 1302 Package Tutorial: https://github.com/cs1302uga/cs1302-tutorials/blob/master/packages.md
+* [CSCI 1302 Package Tutorial](https://github.com/cs1302uga/cs1302-tutorials/blob/master/packages.md)
 
-* Emacs Reference Card: https://www.gnu.org/software/emacs/refcards/pdf/refcard.pdf
+* [Emacs Reference Card](https://www.gnu.org/software/emacs/refcards/pdf/refcard.pdf)
 
 ## Course-Specific Learning Outcomes
 
