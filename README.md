@@ -8,9 +8,7 @@ packages on a Unix system.
 ## Prerequisite Knowledge
 
 * [Emacs Tutorial](https://github.com/cs1302uga/cs1302-tutorials/blob/master/emacs/emacs.md)
-
 * [CSCI 1302 Package Tutorial](https://github.com/cs1302uga/cs1302-tutorials/blob/master/packages.md)
-
 * [Emacs Reference Card](https://www.gnu.org/software/emacs/refcards/pdf/refcard.pdf)
 
 ## Course-Specific Learning Outcomes
@@ -30,6 +28,10 @@ action happen along with an explanation of why that command worked. Some command
 It is important to not only recall what you typed but also why you typed each of them. If done properly, your 
 class notes will serve as a helpful study guide for the exam.
 
+## Exercise Steps
+
+### Checkpoint 1 Steps
+
 1. In your home directory on nike create the subdirectory structure seen below. What single 
    command can be used to create all of these directories at once?
 
@@ -40,11 +42,12 @@ class notes will serve as a helpful study guide for the exam.
                 |--- example
    ```
 
-1. Navigate to the `src` directory. In this example, `src` is the default package for source code. 
+1. Navigate to the `src` directory. In this example, `src` is the default package directory for source code. 
    Inside of the `src` directory, create a file called `Hello.java`. Within this file, write a Java 
-   program to read in the user's name and then output `Hello, <user>` with their name instead of 
-   `<user>`. Your program should work **without any import statements**.  Write the full line of java 
-   code to instantiate a `Scanner` object without importing the class in your notes.
+   program to prompt the user for their name, read in their full name and then output `Hello, <user>` with 
+   their name instead of `<user>`. Your program should work **without any import statements**. Sure, 
+   [this is possible](https://github.com/cs1302uga/cs1302-tutorials/blob/master/packages.md#import-statements)!
+   In your notes, write the full line of java code to instantiate a `Scanner` object without importing the class.
 
 1. Compile and run your code directly from the default package. Don't use the `-d` option for `javac`
    in this step. In which directory is the compiled code contained?
@@ -52,7 +55,7 @@ class notes will serve as a helpful study guide for the exam.
    Once you are confident that it is working, remove the _compiled_ (byte) code (not your source code).
 
 1. Move the `Hello.java` file (source code) into the `cs1302.example` package. What two things must be done to 
-   accomplish this?
+   accomplish this? [Hint](https://github.com/cs1302uga/cs1302-tutorials/blob/master/packages.md#named-package)
 
 1. For better organization, let's separate the source code from the compiled code. Directly inside 
    the `exercise2` directory, add a subdirectory called `bin`. This directory will be the default 
@@ -65,8 +68,29 @@ class notes will serve as a helpful study guide for the exam.
 1. From your home directory (not `exercise2`), what is the single command to run the `Hello` 
    program?
 
-**CHECKPOINT**
-    
+1. Execute the `find` command from directly within your `exercise2` directory. If the previous steps were 
+   executed correctly, you should see the following output:
+   
+   ```
+   .
+   ./src
+   ./src/cs1302
+   ./src/cs1302/example
+   ./src/cs1302/example/Hello.java
+   ./bin
+   ./bin/cs1302
+   ./bin/cs1302/example
+   ./bin/cs1302/example/Hello.class
+   ```
+   
+<hr/>
+
+![CP](https://img.shields.io/badge/Just%20Finished%20Checkpoint-1-success?style=for-the-badge)
+
+<hr/>
+
+### Checkpoint 2 Steps
+
 1. Navigate to the `exercise2` folder and add a `cs1302.utility` package directory to your heirarchy. 
    Add a class called `MyMethods` to this package. Add a single, static method to to this class which 
    takes two `int` variables as parameters and returns the maximum of the two as an `int`. What is the 
@@ -91,8 +115,15 @@ class notes will serve as a helpful study guide for the exam.
    qualified names with simple names. Rerun your code to make sure it is working. From the `exercise2` 
    directory, what is the single command to run the `Hello` program?
    
+<hr/>
 
-**CHECKPOINT**
+![CP](https://img.shields.io/badge/Just%20Finished%20Checkpoint-2-success?style=for-the-badge)
+
+<hr/>
+
+### Submission Steps
+
+**Each student needs to individually submit their own work.**
 
 1. Add a `README.txt` file in the `exercise2` folder containing the first and last names of all group 
    members (one full name per line).
@@ -141,9 +172,11 @@ class notes will serve as a helpful study guide for the exam.
    detailed list of all files that were successfully submitted. Look through the contents of the `rec`
    file and always remember to keep that file in case there is an issue with your submission.
 
-   Note: You must be on Nike to submit.
+   Note: You must be on Odin to submit.
 
-**CHECKPOINT**
+<hr/>
+
+![CP](https://img.shields.io/badge/Just%20Finished-Submission-success?style=for-the-badge)
 
 <hr/>
 
