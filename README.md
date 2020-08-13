@@ -55,7 +55,7 @@ class notes will serve as a helpful study guide for the exam.
    Once you are confident that it is working, remove the _compiled_ (byte) code (not your source code).
 
 1. Move the `Hello.java` file (source code) into the `cs1302.example` package. What two things must be done to 
-   accomplish this? [Hint](https://github.com/cs1302uga/cs1302-tutorials/blob/master/packages.md#named-package)
+   accomplish this? Hint: [Named Packages](https://github.com/cs1302uga/cs1302-tutorials/blob/master/packages.md#named-package)
 
 1. For better organization, let's separate the source code from the compiled code. Directly inside 
    the `exercise2` directory, add a subdirectory called `bin`. This directory will be the default 
@@ -95,9 +95,17 @@ class notes will serve as a helpful study guide for the exam.
    Add a class called `MyMethods` to this package. Add a single, static method to to this class which 
    takes two `int` variables as parameters and returns the maximum of the two as an `int`. What is the 
    exact first line of code in `MyMethods.java`?
+   
+   **PROTIP** Unless it is specifically stated, it is best to always work from the main exercise directory. 
+   For example, while working on the source code for this exercise, you can modify all of the files without 
+   leaving the `exercise2` directory by providing the relative path (using tab completion) to the file from 
+   the `exercise2` directory. This means you would rarely use the `cd` command while working on an exercise. 
+   When Unix beginners overuse the `cd` command, they often find themselves lost in the directory structure
+   which can lead to mistakes and, in rare cases, frustration!
 
 1. Assuming your present working directory is still `exercise2`, what is the command to compile 
-   `MyMethods.java` and place the byte code in the `bin` directory? 
+   `MyMethods.java` and place the byte code in the `bin` directory? Remember, there are no dependencies
+   when compiling `MyMethods.java` as it does not depend on any other source code.
 
    Look in the `bin` directory now that you've compiled both `Hello.java` and `MyMethods.java`. 
    Notice the directory hierarchy that was automatically created.
@@ -115,6 +123,25 @@ class notes will serve as a helpful study guide for the exam.
    qualified names with simple names. Rerun your code to make sure it is working. From the `exercise2` 
    directory, what is the single command to run the `Hello` program?
    
+1. Execute the `find` command from directly within your `exercise2` directory. If the previous steps were 
+   executed correctly, you should see the following output:
+   
+   ```
+   .
+   ./src
+   ./src/cs1302
+   ./src/cs1302/example
+   ./src/cs1302/example/Hello.java
+   ./src/cs1302/utility
+   ./src/cs1302/utility/MyMethods.java
+   ./bin
+   ./bin/cs1302
+   ./bin/cs1302/example
+   ./bin/cs1302/example/Hello.class
+   ./bin/cs1302/utility
+   ./bin/cs1302/utility/MyMethods.class
+   ```
+   
 <hr/>
 
 ![CP](https://img.shields.io/badge/Just%20Finished%20Checkpoint-2-success?style=for-the-badge)
@@ -125,8 +152,18 @@ class notes will serve as a helpful study guide for the exam.
 
 **Each student needs to individually submit their own work.**
 
-1. Add a `README.txt` file in the `exercise2` folder containing the first and last names of all group 
-   members (one full name per line).
+1. Create a plain text file called `SUBMISSION.md` directly inside the `exercise2`
+   directory with the following information:
+
+   1. Your name and UGA ID number;
+   1. Collaborator names, if any; and
+   
+   Here is an example of the contents of `SUBMISSION.md`.
+   
+   ```
+   1. Sally Smith (811-000-999)
+   2. Collaborators: Joe Allen, Stacie Mack
+   ```
 
 1. Change directories to the parent of `exercise2` (e.g., `cd ..` from `exercise2`). We will use the 
    `tar` command to combine our directory hierarchy into a single file for backup purposes. 
@@ -158,21 +195,18 @@ class notes will serve as a helpful study guide for the exam.
 1. List the contents of your directory and make sure you see `exercise2.tar.gz` instead of 
    `exercise2.tar`. Now, you have a compressed backup of your directory saved in the `.tar.gz file`.
    
-1. In this class, you may be asked to submit assignments or exercises from time to time. To do this, 
-   you much change to the parent directory of the directory you want to submit, then use the `submit`
-   command (specific to Nike). To submit your `exercise2` directory, use the following command:
-
+1. Use the `submit` command to submit this exercise to `cs1302a`:
+   
    ```
    $ submit exercise2 cs1302a
    ```
+   
+   Read the output of the submit command very carefully. If there is an error while submitting, then it will displayed 
+   in that output. Additionally, if successful, the submit command creates a new receipt file in the directory you 
+   submitted. The receipt file begins with rec and contains a detailed list of all files that were successfully submitted. 
+   Look through the contents of the rec file and always remember to keep that file in case there is an issue with your submission.
 
-   Read the output of the `submit` command very carefuly. If there is an error while submitting, then
-   it will displayed in that output. Additionally, if successful, the `submit` command creates a new 
-   receipt file in the directory you submitted. The receipt file begins with `rec` and contains a 
-   detailed list of all files that were successfully submitted. Look through the contents of the `rec`
-   file and always remember to keep that file in case there is an issue with your submission.
-
-   Note: You must be on Odin to submit.
+   **Note:** You must be on Odin to submit.
 
 <hr/>
 
