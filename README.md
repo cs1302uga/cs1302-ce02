@@ -1,6 +1,6 @@
 # ce02 Command Line Compilation and Packages
 
-![Approved for: Spring 2020](https://img.shields.io/badge/Approved%20for-Spring%202020-blue)
+![Approved for: Fall 2020](https://img.shields.io/badge/Approved%20for-Fall%202020-blueviolet)
 
 This exercise is designed to introduce text editors as well as how to compile Java code organized into 
 packages on a Unix system.
