@@ -198,7 +198,7 @@ class notes will serve as a helpful study guide for the exam.
 1. Use the `submit` command to submit this exercise to `cs1302a`:
    
    ```
-   $ submit exercise2 cs1302a
+   $ submit exercise2 csci-1302
    ```
    
    Read the output of the submit command very carefully. If there is an error while submitting, then it will displayed 
