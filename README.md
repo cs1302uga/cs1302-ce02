@@ -195,7 +195,7 @@ class notes will serve as a helpful study guide for the exam.
 1. List the contents of your directory and make sure you see `exercise2.tar.gz` instead of 
    `exercise2.tar`. Now, you have a compressed backup of your directory saved in the `.tar.gz file`.
    
-1. Use the `submit` command to submit this exercise to `cs1302a`:
+1. Use the `submit` command to submit this exercise to `csci-1302`:
    
    ```
    $ submit exercise2 csci-1302
