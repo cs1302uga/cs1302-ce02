@@ -21,7 +21,7 @@ packages on a Unix system.
 ## Questions
 
 In your notes, clearly answer the following questions. These instructions assume that you are 
-logged into the nike server.
+logged into the Odin server.
 
 **NOTE:** For each step, please provide in your notes the full command that you typed to make the related 
 action happen along with an explanation of why that command worked. Some commands require multiple options. 
@@ -32,7 +32,7 @@ class notes will serve as a helpful study guide for the exam.
 
 ### Checkpoint 1 Steps
 
-1. In your home directory on nike create the subdirectory structure seen below. What single 
+1. In your home directory on Odin create the subdirectory structure seen below. What single 
    command can be used to create all of these directories at once?
 
    ```
